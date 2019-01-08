@@ -1,0 +1,18 @@
+export CS61B=/Users/edwardsun
+export CLASSPATH=$CS61B/cs61b-software/lib/*:$CS61B/repo/proj3/out/production/proj3
+
+export STAFF_GRAPH=$CS61B/cs61b-software/lib/proj3/staff-graph.jar
+export STAFF_MAKE=$CS61B/cs61b-software/lib/proj3/staff-make.jar
+export STAFF_TRIP=$CS61B/cs61b-software/lib/proj3/staff-trip.jar
+
+#cd testing/make
+#make check
+#make CPATH="$STAFF_GRAPH:$CLASSPATH" check
+#make CPATH="$STAFF_MAKE:$CLASSPATH" check
+#make CPATH="$STAFF_MAKE:$STAFF_GRAPH:$CLASSPATH" check
+
+#cd testing/trip
+#make check
+#make CPATH="$STAFF_GRAPH:$CLASSPATH" check
+#make CPATH="$STAFF_TRIP:$CLASSPATH" check
+#make CPATH="$STAFF_TRIP:$STAFF_GRAPH:$CLASSPATH" check
